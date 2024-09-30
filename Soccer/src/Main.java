@@ -95,10 +95,10 @@ class SoccerPlayers{
     public String toString() {
         return
                 "\n\t name=" + name  +
-                "\n\t age=" + age +
-                "\n\t team=" + team +
-                "\n\t scoredGoals=" + scoredGoals+
-                "\n\t ============================";
+                        "\n\t age=" + age +
+                        "\n\t team=" + team +
+                        "\n\t scoredGoals=" + scoredGoals+
+                        "\n\t ============================";
     }
 
     @Override

@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Objects;
 
-public class Main {
+public class Soccer {
     public static void main(String[] args){
 
         SoccerPlayers player1 = new SoccerPlayers("Messi", 35, "Inter Miami", 20);

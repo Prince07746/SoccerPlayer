@@ -8,8 +8,7 @@ public class Main {
         SoccerPlayers player2 = new SoccerPlayers("Messi", 35, "Inter Miami", 20);
         SoccerPlayers player3 = new SoccerPlayers("Neymar", 30, "Al-Hilal", 6);
         SoccerPlayers player4 = new SoccerPlayers("wafi", 26, 32); // Without team
-        SoccerPlayers player5 = new SoccerPlayers("Prince",25,"Develhop",67 ); // Without team
-
+        SoccerPlayers player5 = new SoccerPlayers("Prince",25,"Develhop",67 );
         ArrayList<SoccerPlayers> playersList = new ArrayList<>();
         playersList.add(player1);
         playersList.add(player2);

@@ -16,28 +16,31 @@ public class Main {
         playersList.add(player4);
         playersList.add(player5);
 
-        System.out.println("Soccer Players List:");
+        System.out.println("\t Soccer Players List:");
         for (SoccerPlayers player : playersList) {
             System.out.println("\t "+player);
         }
+        System.out.println("\t ================================");
 
-
-        System.out.println("Is player1 equal to player3 ? " + player1.equals(player2));
-        System.out.println("Is player3 equal to player5? " + player3.equals(player5));
-
+        System.out.println("\t working on comparison");
+        System.out.println("\t Is player1 equal to player3 ? " + player1.equals(player2));
+        System.out.println("\t Is player3 equal to player5? " + player3.equals(player5));
+        System.out.println("\t ================================");
 
         player4.setTeam("Paris Saint-Germain");
         player4.setAge(25);
-        System.out.println("Updated player4: " + player4);
+        System.out.println("\t Updated player4: " + player4);
+        System.out.println("\t ================================");
 
-        System.out.println("\n Players is in 'Develhop' team:");
+        System.out.println("\t Players is in 'Develhop' team:");
         for (SoccerPlayers player : playersList) {
             if ("Develhop".equals(player.getTeam())) {
-                System.out.println(player);
+                System.out.println("\t Matched = "+player);
             }
         }
+        System.out.println("\t ================================");
 
-        System.out.println("Soccer Players List:");
+        System.out.println("\t Soccer Players List:");
         for (SoccerPlayers player : playersList) {
             System.out.println("\t "+player);
         }
@@ -90,12 +93,12 @@ class SoccerPlayers{
 
     @Override
     public String toString() {
-        return "SoccerPlayers{" +
-                "\nname='" + name  +
-                "\n age=" + age +
-                "\n team='" + team +
-                "\n scoredGoals=" + scoredGoals +
-                '}';
+        return
+                "\n\t name=" + name  +
+                "\n\t age=" + age +
+                "\n\t team=" + team +
+                "\n\t scoredGoals=" + scoredGoals+
+                "\n\t ============================";
     }
 
     @Override

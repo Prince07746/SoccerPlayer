@@ -90,7 +90,12 @@ class SoccerPlayers{
 
     @Override
     public String toString() {
-        return super.toString();
+        return "SoccerPlayers{" +
+                "\nname='" + name  +
+                "\n age=" + age +
+                "\n team='" + team +
+                "\n scoredGoals=" + scoredGoals +
+                '}';
     }
 
     @Override
